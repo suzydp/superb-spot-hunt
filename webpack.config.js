@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: 'src/index.jsx',
+  entry: './src/index.jsx',
   mode: 'development',
   output: {
     filename: 'bundle.js',
@@ -36,6 +36,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensitons: ['.webpack.js', ' ', '.js', '.jsx']
+    extensions: ['.webpack.js', ' ', '.js', '.jsx']
   }
 };
